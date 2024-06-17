@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--connect to css style sheet-->
+        <link rel="stylesheet" type="text/css"
+        href="A5.1.css">
+        <!--cset page tab title-->
+        <title>Assignment 5.1 : Manipulating Data with JavaScript</title>
+    </head>
+
+    <body>
+        <!--top section-->
+        <div class="input-section">
+            <!--header-->
+            <h2>Enter Movie Title</h2>
+            <!--input space for movie list-->
+            <input type="text" id="movieTitle" placeholder="Movie Title">
+            <!--button for add movie-->
+            <button onclick="addMovie()">Add Movie</button>
+            <!--button to rest list-->
+            <button onclick="resetList()">Reset List</button>
+        </div>
+        <!--bottom section-->
+        <div class="list-section">
+            <!--bottom section header-->
+            <h2>Movie List</h2>
+            <ul id="movieList"></ul>
+        </div>
+
+    <!--connect to javascript file-->
+    <script src="A5.1.js"></script>
+    </body>
+</html>

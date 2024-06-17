@@ -1,0 +1,22 @@
+body {
+    /*set font of entire page*/
+    font-family: Arial, sans-serif;
+    /*change background color to gradient*/
+    background-image: linear-gradient(rgb(108, 108, 249), rgb(153, 255, 250));
+}
+
+.input-section, .list-section {
+    /*set margin to upper and lower section*/
+    margin: 20px;
+}
+
+/*for lower section*/
+.list-section {
+    /*add a border, solid line*/
+    border-top: 1px solid #ccc;
+    /*adds top padding*/
+    padding-top: 10px;
+    /*give height to lower section*/
+    height: 560px;
+}
+
